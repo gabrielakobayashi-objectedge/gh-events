@@ -12,7 +12,6 @@ on:
       - 'src/**'
       - '.github/workflows/demo1.yml'
     paths-ignore:
-      - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
