@@ -3,6 +3,7 @@ import { useState } from 'react';
 import HelpArea from './HelpArea';
 
 //blablabla
+// add yet another comment
 
 function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
